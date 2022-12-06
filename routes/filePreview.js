@@ -15,7 +15,7 @@ router.get('/:uuid', async (req, res) => {
       uuid: file.uuid,
       filename: file.filename,
       size: file.size,
-      downloadLink: `${process.env.APP_BASE_URL}/files/download/${file.uuid}`
+      downloadLink: `https://simplyshare.onrender.com/files/download/${file.uuid}`
     })
   } catch (error) {
     return res.render('download', {
