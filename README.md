@@ -1,13 +1,3 @@
 # FileShare
+This is our Web Technologies project for file sharing. User can upload a single file upto 100mb. The file will be stored in our database(MongoDB) and a shareable link will be created which can be sent to any other user who can download the file with the help of the link. Sharing of the file is also possible with the help of generated QR code or email service(yet to be integrated).
 
-File-sharing application built with Node.js. Drag-n-drop / upload your file and it'll be uploaded to the server.
-Shareable link will be generated and anyone with the link can download the file within 24 hours. Links can be shared via email also.
-
-[Try it here](https://fileshare.onrender.com)
-
-#### Limitations
-
-- File size limit : 100 MB maximum
-- Single file upload only
-
-![ScreenShot](/screenshot.png?raw=true)
