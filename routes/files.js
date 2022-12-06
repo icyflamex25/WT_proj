@@ -45,7 +45,7 @@ router.post('/', (req, res) => {
     })
 
     const response = await file.save();
-    const fileUrl = `${process.env.APP_BASE_URL}/files/${response.uuid}`;
+    const fileUrl = `https://simplyshare.onrender.com/files/download/${file.uuid}`;
     qr.toDataURL(fileUrl, (err, src) => {
       return res.status(200).json({
         file: fileUrl,
@@ -98,7 +98,7 @@ router.post('/sendmail', async (req, res) => {
       text: `${sender} shared a file with you.`,
       html: require('../services/emailTemplate')({
         sender,
-        downloadLink: `${process.env.APP_BASE_URL}/files/${file.uuid}?source=email`,
+        downloadLink: `https://simplyshare.onrender.com/files/download/${file.uuid}`,
         size: parseInt(file.size / 1000) + ' KB',
         siteLink: process.env.APP_BASE_URL,
         expires: '24 hours'
