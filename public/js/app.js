@@ -196,3 +196,7 @@ const showToast = (msg) => {
 goBackBtn.addEventListener('click', (e) => {
     window.location.href = '/'
 })
+
+function goToHome () { 
+    window.location.href = "/"
+};
