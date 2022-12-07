@@ -445,18 +445,6 @@ strong {
 }
 
 .share-link input {
-  /* width: 100%;
-  text-align: center;
-  padding: 15px 0;
-  border: none;
-  background-color: transparent;
-  font-family: inherit;
-  font-size: 16px;
-  margin: 10px 0 5px;
-  border-radius: 0;
-  color: var(--text-color);
-  overflow: hidden;
-  text-overflow: ellipsis; */
   opacity: 0;
   height: 0;
 }
@@ -517,7 +505,7 @@ strong {
     cursor: default;
     height: 48px;
     width: 100%;
-    /* filter: var(--button-filter); */
+    text-color: #aaa;
     opacity: 0.6;
     display: flex;
     align-items: center;
