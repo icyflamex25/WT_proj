@@ -181,7 +181,7 @@ module.exports = ({
                         <br>
                       <p
                         style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 15px;">
-                        Regards, Mb</p>
+                        Regards, SimplyShare</p>
                     </td>
                   </tr>
                 </table>
