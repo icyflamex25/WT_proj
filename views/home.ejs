@@ -3,16 +3,21 @@
 
 <head>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
-  <meta charset="UTF-8">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="styles/site.css" rel="stylesheet"/>
+  <!-- <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Primary Meta Tags -->
+  Primary Meta Tags
   <title>FileShare - Share your files with ease</title>
   <meta name="title" content="FileShare - Share your files with ease">
   <meta name="description"
     content="Nodejs powered File-sharing service. Just drop your file, get a shareable link instantly and share it via email. Files are stored for only 24 hours in server.">
 
-  <!-- Open Graph / Facebook -->
+  Open Graph / Facebook
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://share-my-file.herokuapp.com/">
   <meta property="og:title" content="FileShare - Share your files with ease">
@@ -20,7 +25,7 @@
     content="Nodejs powered File-sharing service. Just drop your file, get a shareable link instantly and share it via email. Files are stored for only 24 hours in server.">
   <meta property="og:image" content="https://share-my-file.herokuapp.com/cover.png">
 
-  <!-- Twitter -->
+  <-- Twitter
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://share-my-file.herokuapp.com/">
   <meta property="twitter:title" content="FileShare - Share your files with ease">
@@ -30,17 +35,83 @@
 
   <link rel="apple-touch-icon" href="/apple-icon.png">
   <link rel="icon" type="image/png" href="/favicon.png">
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"> -->
 
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
 
+ <div class="main">
+    <h1 class="main_head">Simplified Share!! 
+    <div class="roller">
+      <span id="rolltext">Share<br/>
+      Files<br/>
+      Safely<br/>
+      <span id="spare-time">Safe Share,Stay Safe</span><br/>
+      </div>
+      </h1>
+    </div>
+
+    <section class="headline_text">
+       <p class="headline_black">Take your files every where
+       </p>
+       <p class="headline_blue">Safe</p>
+    </section>
+
+<div class="img_box">
+
+  <img src="/img/file_sharing.jpg" alt="Error occured" width="450" height="450">
+
+</div>
+
+<!-- <div class="three_images">
+  
+  <div class="first_class">
+    <i class="fa fa-solid fa-cloud fa-3x"></i>
+    <br> <section class="text_1">Share <br>Anything, Anywhere, Anytime</section>
+  </div>
+
+  <div class="first_class">
+    <i class="fa fa-solid fa-gear fa-3x"></i>
+  </div>
+  
+  <div class="first_class">
+    <i class="fa fa-solid fa-lock fa-3x"></i>
+  </div>
+
+</div> -->
+
+<br>
+
+<div class="three_box">
+
+  <div class="first_box">
+    <i class="fa fa-solid fa-cloud fa-3x"></i>
+    <br>
+      Share, Anything, Anywhere, Anytime
+  </div>
+
+  <div class="first_box">
+    <i class="fa fa-solid fa-gear fa-3x"></i>
+    <br>
+    Share using, Email ID,<br> QR code or Link
+  </div>
+
+  <div class="first_box">
+    <i class="fa fa-solid fa-lock fa-3x"></i>
+    <br>
+    Only those with link are worthy for your files
+  </div>
+
+</div>
+  
+
   <!-- <div class="nine">
     <h1>File Transfer<span>Safe Share, Safe You</span></h1>
   </div> -->
-  <div class="main">
+
+  <!-- <div class="main">
     <h1 class="main_head">Simplified Share!! <div class="roller">
       <span id="rolltext">Share<br/>
       Files<br/>
@@ -82,7 +153,7 @@
           <h3 style="color: #ffcf00;">Easy Right!!</h3>
         </span>
       </span>
-  </div>
+  </div> -->
 
   <!-- <div class="swipe">
     <h3 class="s_h">Swipe Below To Drop your file<br> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjU2bW9gMjfmB9fexc4hMgy_CT8ZlgyDuEhmSe6yV-0sOey7JkJ3jb18aJybA1lx3zoL8&usqp=CAU" alt="↓"></h3>
@@ -149,9 +220,7 @@
     </div>
   </div> -->
 
-  <section>
 
-  </section>
   <section class="upload-container">
     <div class="dropzone">
       <div class="wrapper">
@@ -219,6 +288,44 @@
     </div>
   </section>
   <div class="toast"></div>
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+   
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <div class="Contact">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> KLE Technological University,Hubli</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@kletech.ac.in
+          </p>
+          <p><i class="fas fa-phone me-3"></i> 0836-2378103/105/106</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
   <script src="/js/app.js"></script>
 
 </body>
