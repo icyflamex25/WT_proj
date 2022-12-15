@@ -195,7 +195,7 @@ strong {
 .uploader-progress-ui {
   background: var(--bg-color);
   top: 0;
-  position: fixed;
+  position: relative;
   left: 0;
   right: 0;
   bottom: 0;
